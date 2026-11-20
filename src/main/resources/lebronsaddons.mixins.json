@@ -1,0 +1,1 @@
+{"required":true,"package":"com.lebronsaddons.mixin","compatibilityLevel":"JAVA_25","client":["GameMenuScreenMixin"],"injectors":{"defaultRequire":1}}

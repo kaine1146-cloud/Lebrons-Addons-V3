@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "lebronsaddons",
+  "version": "${version}",
+  "name": "Lebron's Addons",
+  "description": "Custom Spotify HUD with Christmas mode and configurable overlays.",
+  "environment": "client",
+  "mixins": [
+    "lebronsaddons.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "com.lebronsaddons.LebronsAddons"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
